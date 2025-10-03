@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About — Piratheesh Gunaseelan</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css"   rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+  <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+  <link href="phone.css"  rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+
+<body>
+<div id="wrapper">
+  <header>
+    <h1>About Me</h1>
+    <nav>
+      <a class="button" href="index.html">Home</a>
+      <a class="button" href="about.html">About</a>
+      <a class="button" href="projects.html">Projects</a>
+      <a class="button" href="contact.html">Contact</a>
+      <div class="clear"></div>
+    </nav>
+  </header>
+
+  <article>
+    </section>
+      <img src="profile.jpg" alt="Photo of Piratheesh Gunaseelan" class="feature-img">
+      <p>I am Piratheesh Gunaseelan, an Information Technology student at Ontario Tech University specializing in networking and security. I have hands-on experience in cybersecurity, IT infrastructure, and operational security, with roles including Security Operations Center Architect at Ontario Tech University and IT Intern with the Toronto Police Service. My work has involved network deployment, compliance documentation, SOC integration, and IT systems management. I have obtained skills in Python, Bash, PowerShell, and enterprise networking over the year at univesrity.</p>
+    </section>
+
+    <section>
+      <h2>Intro Video</h2>
+
+      <video width="480" height="270" controls poster="thumbnail.png">
+         <source src="WebnScript.mp4" type="video/mp4">
+        Your browser doesn't support the video tag.
+      </video>
+    </section>
+  </article>
+
+  <footer>
+    <address>
+      <p>Contact: <a href="mailto:piratheesh.gunaseelan@ontariotechu.net">piratheesh.gunaseelan@ontariotechu.net</a></p>
+    </address>
+    <p>&copy; <span id="year"></span> Piratheesh Gunaseelan</p>
+  </footer>
+</div>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
