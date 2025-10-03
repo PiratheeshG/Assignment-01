@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact — Piratheesh Gunaseelan</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="full.css"   rel="stylesheet" type="text/css" media="only screen and (min-width:961px)">
+  <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+  <link href="phone.css"  rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <a class="button" href="index.html">Home</a>
+      <a class="button" href="about.html">About</a>
+      <a class="button" href="projects.html">Projects</a>
+      <a class="button" href="contact.html">Contact</a>
+      <div class="clear"></div>
+    </nav>
+  </header>
+
+  <article>
+    <section>
+      <h2>Send a message</h2>
+  
+      <form action="mailto:piratheesh.gunaseelan@ontariotechu.net" method="post" enctype="text/plain">
+        <p>
+          <label for="name">Name</label><br>
+          <input id="name" name="name" type="text" size="40" required>
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input id="email" name="email" type="email" size="40" required>
+        </p>
+        <p>
+          <label for="phone">Cell No.</label><br>
+          <input id="phone" name="phone" type="tel" size="20" required>
+        </p>
+        <p>
+          <label for="comments">Comments</label><br>
+          <textarea id="comments" name="comments" rows="5" cols="40" required></textarea>
+        </p>
+        <p><input type="submit" value="Submit"></p>
+      </form>
+    </section>
+  </article>
+
+  <footer>
+    <address>
+      <p>Contact: <a href="mailto:piratheesh.gunaseelan@ontariotechu.net">piratheesh.gunaseelan@ontariotechu.net</a></p>
+    </address>
+    <p>&copy; <span id="year"></span> Piratheesh Gunaseelan</p>
+  </footer>
+</div>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
