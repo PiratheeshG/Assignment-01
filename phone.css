@@ -64,3 +64,10 @@ input, textarea { width: 90%; max-width: 480px; }
 
 footer { background-color: #000000; color: #FFFFFF; padding: 12px 0 18px 0; text-align:left; }
 footer a { color: #67E5DB; }
+
+.ocean-img {
+  width: 100%;     
+  height: auto;     
+  display: block;   
+  margin: 20px 0;   
+}
